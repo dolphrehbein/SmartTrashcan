@@ -45,7 +45,7 @@ const int ACCEL_INT_PIN = D2;
 const unsigned long MAX_TIME_TO_PUBLISH_MS = 30000; // Only stay awake for 30 seconds trying to connect to the cloud and publish
 const unsigned long TIME_AFTER_PUBLISH_MS = 4000; // After publish, wait 4 seconds for data to go out
 const unsigned long TIME_AFTER_BOOT_MS = 10000; // At boot, wait 10 seconds before going to sleep again
-const unsigned long TIME_PUBLISH_BATTERY_SEC = 60; // every 30 seconds, send a battery update
+const unsigned long TIME_PUBLISH_BATTERY_SEC = 60*60; // every hour send a battery update in addition to the autowake samples.
 // Stuff for the finite state machine
 enum State { RESET_STATE, RESET_WAIT_STATE, PUBLISH_STATE, SLEEP_STATE, SLEEP_WAIT_STATE, BOOT_WAIT_STATE };
 State state = RESET_STATE;
