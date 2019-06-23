@@ -2,7 +2,9 @@
 I made a prototype of a smart trashcan to improve municipal trash collection.
 
 
+
 Here are the components used and connections:
+
 Particle Photon 
 https://store.particle.io/products/photon
 
