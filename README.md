@@ -1,13 +1,14 @@
 # SmartTrashcan
 I made a prototype of a smart trashcan to improve municipal trash collection.
-**Features:
+
+__Features__:
 -Solar panel + LiPo battery + Particle Power shield for power
 -Ultra sonic sensor and IR sensor to measure the amount of trash
 -Accelerometer for auto wake when opening the lid
 -GPS to publish location of trashcan
 -iOS app to find the location of the trash can
 
-**Here are the components used and connections:
+**Here are the components used and connections:**
 
 [Particle Photon ](https://store.particle.io/products/photon)
 
