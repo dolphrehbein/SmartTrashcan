@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Particle-SDK (0.9.5):
+    - Particle-SDK/Helpers (= 0.9.5)
+    - Particle-SDK/SDK (= 0.9.5)
+  - Particle-SDK/Helpers (0.9.5):
+    - AFNetworking (~> 3.0)
+  - Particle-SDK/SDK (0.9.5):
+    - AFNetworking (~> 3.0)
+    - Particle-SDK/Helpers
+  - PXGoogleDirections (1.6)
+
+DEPENDENCIES:
+  - Particle-SDK
+  - PXGoogleDirections
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Particle-SDK
+    - PXGoogleDirections
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Particle-SDK: 60dcaab91bccc72ae948bb89be569cb26464850f
+  PXGoogleDirections: e0810665aa328396856de3192706f60af434c6fd
+
+PODFILE CHECKSUM: 49ac4eeb69d83a26ee3d16760c3d894c0fad51fb
+
+COCOAPODS: 1.5.3
