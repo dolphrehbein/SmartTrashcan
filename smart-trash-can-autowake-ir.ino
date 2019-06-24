@@ -100,29 +100,8 @@ void checkTrashIR()
         delay(100);
     }
     
-    //some sloppy scaling to deal with the nonlinearity of the IR sensor. Works well in practice.
     invtrash = sum / denominator;
     trash = 100 - invtrash;
-    if(trash< 10)
-    {
-        trash*=2;
-    }
-    else if(trash < 25)
-    {
-        trash *= 1.35;
-    }
-    else if(trash<50)
-    {
-        trash*=1.2;
-    }
-    else if (trash>95)
-    {
-        trash=trash;
-    }
-    else if (trash >50)
-    {
-        trash *= .9;
-    }
     trash = max(0,trash);
     trash = min(100,trash);
 }
