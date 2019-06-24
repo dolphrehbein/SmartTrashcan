@@ -1,6 +1,8 @@
 # SmartTrashcan
 I made a prototype of a smart trashcan to improve municipal trash collection.
 
+[youtube video](https://m.youtube.com/watch?v=YbdOFqoOZbs)
+
 __Features:__
 - Solar panel + LiPo battery + Particle Power shield for power
 - Ultra sonic sensor and IR sensor to measure the amount of trash
