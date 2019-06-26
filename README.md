@@ -40,3 +40,4 @@ Gnd, Rx->Tx and Tx -> Rx.
 ![Pictures](https://github.com/dolphrehbein/SmartTrashcan/blob/master/trashcan1.png)
 ![Pictures](https://github.com/dolphrehbein/SmartTrashcan/blob/master/Circuit.png)
 ![Pictures](https://github.com/dolphrehbein/SmartTrashcan/blob/master/App%20screenshot.png)
+![Pictures](https://github.com/dolphrehbein/SmartTrashcan/blob/master/Smart%20Trashcan%20battery%20percentage%20plot%20GPS%20always%20on%20indirect%20sunligh.png)
